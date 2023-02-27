@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Montserrat';
+}
+
+.horisontal-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper-big{
+    width: 87%;
+    margin: 0 auto;
+}
+
+.btn{
+    padding: 25px 46px;
+    border-radius: 38px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.btn2{
+    padding: 25px 46px;
+    border-radius: 38px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+}

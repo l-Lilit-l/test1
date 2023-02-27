@@ -1,0 +1,396 @@
+@import url(./default.css);
+@import url(./fonts.css);
+
+
+header{
+    width: 100%;
+    background-image: url(../img/imgBackground1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 22px 0 99px 0;
+    color: #fff;
+    margin-bottom: 160px;
+}
+
+.main-menu{
+    margin-bottom: 150px;
+}
+
+nav{
+    width: 18%;
+}
+
+nav a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: #dd9428;
+}
+
+header .vertical-container h1{
+    font-family: 'Playfair Display';
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 95px;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+header .vertical-container p{
+    width: 20%;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 70px;
+    line-height: 50px;
+}
+
+.horisontal-container .btns{
+    width: 90%;
+    margin-bottom: 120px;
+}
+
+.btns .btn{
+    color: black;
+    background-color: #dd9428;
+    border: 1px solid transparent;
+}
+
+.btns .btn:hover{
+    color:#dd9428;
+    background-color: transparent;
+    border: 1px solid #dd9428;
+}
+
+
+.vid-ot{
+  padding-right: 1250px;
+}
+
+.vertical-container .social{
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+
+.social-ikonki{
+    width: 10%;
+    margin-top: 10px;
+    justify-content: space-between;
+    display:flex ;
+    margin-top: -50px;
+}
+
+.tyrperv{
+    width: 70%;
+    background-image: url(../img/imghaw1.png);
+    margin-left: 300px;
+    background-repeat: no-repeat;
+    margin-bottom: 160px;
+}
+
+.cotent .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+.tyr-odin{
+
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.tyrperv h1{
+  padding-top: 60px;
+  padding-left: 60px;
+  color: #fff;
+}
+
+.tyrperv p{
+    font-size: 25px;
+    padding-left: 60px;
+    color: #fff;
+}
+
+.tyrperv .gavai{
+   padding-top: 220px;
+   font-size: 30px;
+}
+
+.ttandsvg{
+
+    justify-content: space-between;
+    display: flex;
+    height: 58px;
+    width: 830px;
+    margin-top: 
+    margin-right: 60px;
+}
+
+
+.gavai2 svg{
+    margin-left: 900px;
+    margin-bottom: 70px;
+
+}
+
+.tyr-odin .tyr-nap h1{
+    font-size: 35px;
+    width: 40%;
+    margin-top: 35px;
+}
+
+.tyr-odin .tyr-nap p{
+    text-align: left;
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    width: 40%;
+    height: 132px;
+    letter-spacing: 0em;
+    line-height: 33px;
+}
+
+
+
+.tyr-odin .btn1 .btn2{
+    float: right;
+    color:#dd9428;
+    background-color: transparent;
+    border: 1px solid #dd9428;
+    transition: 0.5s;
+    border-radius:50px;
+    padding: 30px;
+    width: 230px;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-right: 600px;
+}
+
+.tyr-odin .btn1 .btn2:hover{
+    color: black;
+    background-color: #dd9428;
+    border: 1px solid transparent;
+    transition: 0.5s;
+    border-radius: 50px;
+    padding: 30px;
+    width: 230px;
+   font-size: 25px;
+   margin-top: 150px;
+   margin-right: 600px;
+}
+
+.tyr-dva {
+    width: 100%;
+    background-image: url(../img/imgForm1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 160px;
+    justify-content: right;
+    display: flex;
+    margin-right: 255px;
+}
+
+.tyr-dva .pycto h3{
+    font-size: 42px;
+    font-family: 'Montserrat';
+    padding-top: 150px;
+    width: 43%;
+    margin-left: 900px;
+}
+
+.tyr-dva .pycto p{
+    font-size: 23px;
+    padding-top: 30px;
+    font-family: 'Montserrat';
+    line-height: 33px;
+    width: 18%;
+    margin-left: 900px;
+    padding-bottom: 140px;
+}
+
+.tyr-dva .forma-svyazi{
+ margin-top: 150px;
+ margin-bottom: 75px;
+ margin-right: 270px;
+}
+
+.tyr-dva .forma-svyazi .form {
+    background: white;
+    height: 75px;
+    width: 283px;
+    border-radius: 38px;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+    
+.tyr-dva .forma-svyazi input {
+  background: transparent;
+  width: 300px;
+  padding: 2em;
+  margin-bottom: 2em;
+  border: none;
+  border-left: 1px solid rgb(129, 129, 129);
+  border-top: 1px solid rgb(129, 129, 129);
+  border-radius: 5000px;
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500px;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.tyr-dva .btns .btn{
+    display: flex;
+    padding-left: 100px;
+}
+
+.tyr-dva .sogl{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.tyr-tri{
+    height: 475px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    margin-left: 260px;
+    margin-right: 282px;
+    margin-bottom: 160px;
+}
+
+.tyr-tri .text-pyt{
+    float: left;
+    width: 30%;
+
+}
+
+.tyr-tri .text-pyt h1{
+    font-size: 35px;
+    padding-top: 60px;
+}
+
+.tyr-tri .text-pyt p{
+    font-size: 18px;
+    padding-top: 60px;
+}
+
+.tyr-tri .text-pyt .btn7 .btn8:hover{
+    float: left;
+    color: black;
+    background-color: #dd9428;
+    border: 1px solid transparent;
+    transition: 0.5s;
+    border-radius:50px;
+    padding: 30px;
+    width: 230px;
+    font-size: 25px;
+   margin-top: 100px;
+}
+
+.tyr-tri .text-pyt .btn7 .btn8{
+    float: left;
+    color:#dd9428;
+    background-color: transparent;
+    border: 1px solid #dd9428;
+    transition: 0.5s;
+    border-radius:50px;
+    padding: 30px;
+    width: 230px;
+    font-size: 25px;
+   margin-top: 100px;
+}
+
+.tyr-tri .tyr4{
+    width: 830px;
+    height: 475px;
+    background-image: url(../img/imgHawaii2.png);
+    background-size: cover;
+    color: #fff;
+
+}
+
+.tyr-tri .tyr4 h1{
+    margin-left: 60px;
+    font-size: 23px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.tyr-tri .tyr4 p{
+    font-size: 18px;
+    margin-left: 60px;
+    color: #fff;
+    margin-top: 4px;
+}
+
+.tyr-tri .tyr4 .gora .gora1{
+    font-size: 18px;
+    padding-top: 270px;
+    color: #fff;
+    line-height: 29px;
+    margin-left: 60px;
+}
+
+.gora svg{
+    margin-left: 1000px;
+    margin-bottom: 60px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    height: 180px;
+    width: 100%;
+    align-items: center;
+}
+
+.footer .conteiner1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .logo-dva{
+    margin-left: 120px;
+}
+
+.footer .text-perv p{
+    width: 163px;
+    height: 40px; 
+    margin-left: 123px;
+    font-size: 14px;
+line-height: 20px;
+color: #90A4B2;
+}
+
+.footer .text-posl p{
+    width: 195px;
+    height: 40px;
+    margin-left: 123px;
+    font-size: 14px;
+line-height: 20px;
+color: #90A4B2;
+}
+
+.footer .ikonki-posl{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
